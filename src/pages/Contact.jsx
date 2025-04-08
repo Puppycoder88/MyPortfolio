@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <div className="text-center my-12">
-      <h2 className="text-2xl font-semibold mb-4 text-gray-800">Contact</h2>
+      <h2 className="text-2xl font-semibold mb-4">Contact Me</h2>
       
       <div className="flex flex-col items-center space-y-2">
         <a 

@@ -5,7 +5,7 @@ const Skills = () => {
         <div className="flex flex-wrap justify-center gap-3 mt-4 md:gap-4">
           {[
             "React.js", "Tailwind CSS", "JavaScript", "Bootstrap",
-            "Material UI", "MongoDB", "MySQL", "GitHub"
+            "Material UI", "MongoDB", "MySQL", "MsSQL Server", "Node.js", "Express.js", "GitHub"
           ].map((skill, index) => (
             <span
               key={index}

@@ -12,10 +12,10 @@ const Projects = () => {
             <h3 className="text-xl font-semibold">Know2Parking App</h3>
             <p className="text-gray-400">React.js, Tailwind CSS, Mobile Responsive</p>
           </div>
-          <div className="bg-gray-800 p-4 rounded-lg">
+          {/* <div className="bg-gray-800 p-4 rounded-lg">
             <h3 className="text-xl font-semibold">Metlonics Clone Website</h3>
             <p className="text-gray-400">React.js, Tailwind CSS, Mobile Responsive</p>
-          </div>
+          </div> */}
           <div className="bg-gray-800 p-4 rounded-lg">
             <h3 className="text-xl font-semibold">Event Management System App</h3>
             <p className="text-gray-400">React.js, Tailwind CSS, Node.js, MongoDB, Authentication</p>
