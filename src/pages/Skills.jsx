@@ -1,23 +1,28 @@
 const Skills = () => {
-    return (
-      <div className="my-12 text-center px-4">
-        <h2 className="text-2xl md:text-3xl font-semibold">Skills</h2>
-        <div className="flex flex-wrap justify-center gap-3 mt-4 md:gap-4">
-          {[
-            "React.js", "Tailwind CSS", "JavaScript", "Bootstrap",
-            "Material UI", "MongoDB", "MySQL", "MsSQL Server", "Node.js", "Express.js", "GitHub"
-          ].map((skill, index) => (
-            <span
-              key={index}
-              className="px-4 py-2 bg-gray-700 text-white rounded-lg text-sm md:text-base"
-            >
-              {skill}
-            </span>
-          ))}
-        </div>
+  return (
+    <div className="my-20 text-center px-4">
+      <h2 className="text-3xl md:text-4xl font-bold text-gray-300 mb-4">
+         Skills & Technologies
+      </h2>
+      <p className="text-gray-400 mb-6 text-base md:text-lg">
+        Tools I use to craft seamless, scalable, and modern web applications
+      </p>
+      <div className="flex flex-wrap justify-center gap-3 md:gap-4">
+        {[
+          "React.js", "Tailwind CSS", "JavaScript", "Bootstrap",
+          "Material UI", "MongoDB", "MySQL", "MsSQL Server",
+          "Node.js", "Express.js", "Git & GitHub"
+        ].map((skill, index) => (
+          <span
+            key={index}
+            className="px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm md:text-base font-medium shadow-sm hover:scale-105 transition-transform duration-200"
+          >
+            {skill}
+          </span>
+        ))}
       </div>
-    );
-  };
-  
-  export default Skills;
-  
+    </div>
+  );
+};
+
+export default Skills;

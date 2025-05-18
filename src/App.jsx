@@ -4,12 +4,15 @@ import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
+
 
 function App() {
   return (
-    <>
+    <div>
       <Header />
-      <div className="bg-gray-900 text-white min-h-screen p-6">
+
+      <div className="bg-gray-900 text-white min-h-screen p-16 space-y-24">
         <Element name="about">
           <About />
         </Element>
@@ -23,8 +26,11 @@ function App() {
           <Contact />
         </Element>
       </div>
-    </>
+
+      <Footer />
+    </div>
   );
 }
 
 export default App;
+
