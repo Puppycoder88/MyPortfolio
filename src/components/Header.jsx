@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-scroll";
 import { FaBars, FaXmark } from "react-icons/fa6";
 import { MdLightMode } from "react-icons/md";
-import ThemeTogglePanel from './ToggleColorMode';
+// import ThemeTogglePanel from './ToggleColorMode';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -45,7 +45,7 @@ const Header = () => {
         </ul>
 
         {/* Theme Toggle Button */}
-        <div className="relative ml-4">
+{/*         <div className="relative ml-4">
           <button onClick={() => setShowThemePanel(!showThemePanel)}>
             <MdLightMode size={30} className="text-white cursor-pointer" />
           </button>
@@ -55,7 +55,7 @@ const Header = () => {
               <ThemeTogglePanel />
             </div>
           )}
-        </div>
+        </div> */}
       </div>
     </nav>
   );
