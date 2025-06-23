@@ -14,11 +14,18 @@ const Projects = () => {
           {
             title: "Gemba InfoTech Website",
             stack: "React.js • Tailwind CSS • Node.js • MySQL • Nodemailer • Responsive",
+            link: "https://gembainfotech.com/"
           },
           {
             title: "Know2Parking App",
             stack: "React.js • Tailwind CSS • Mobile Responsive",
+            link: "https://know2parking.com/"
           },
+      {
+        title: "GS Technolution",
+        stack: "HTML, CSS, JavaScript, Mobile Responsive ",
+        link: "https://puppycoder88.github.io/GS-Technolution/"
+      }
           {
             title: "Event Management System App",
             stack: "React.js • Tailwind CSS • Node.js • MongoDB • Authentication",
@@ -37,6 +44,7 @@ const Projects = () => {
               {project.title}
             </h3>
             <p className="text-gray-600 text-sm">{project.stack}</p>
+            <p className="text-gray-600 text-sm">{project.link}</p>
           </div>
         ))}
       </div>
