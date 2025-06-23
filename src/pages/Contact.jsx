@@ -37,8 +37,8 @@ const Contact = () => {
       </div>
 
       <a
-        href="/Resume_Garima_Jain.pdf" 
-        download="Resume_Garima_Jain.pdf"
+        href="/Resume-Garima Jain.pdf" 
+        download="Resume-Garima Jain.pdf"
         className="inline-block px-6 py-3 bg-blue-500 text-white rounded-full font-semibold hover:bg-blue-700 transition duration-300"
       >
         📄 Download Resume
